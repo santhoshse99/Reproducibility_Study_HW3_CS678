@@ -20,6 +20,7 @@ Batch size and gradient accumulation steps as required.
 Run Training: Start training using the following command:
 
 python3 -u train.py model=llama7b datasets=[recursive_dp_resampled_test.json] exp_name=my_recursive_dp_7b gradient_accumulation_steps=64 batch_size=64 eval_batch_size=4 n_eval_examples=16
+
 Replace model and datasets values as needed.
 
 Slurm Integration:
